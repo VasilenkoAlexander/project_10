@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,800);
+/* Inter */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:regular,500,600,700);
+/* "Open Sans" */
+@import url(https://fonts.googleapis.com/css?family=Rubik:regular,600,500);
+/* Rubik */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,600);
+/* Montserrat */
+@font-face {
+    font-family: 'GilroyBold';
+    src: url('../fonts/Gilroy/Gilroy-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GilroyReg';
+    src: url('../fonts/Gilroy/Gilroy-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GilroySemiBold';
+    src: url("../fonts/Gilroy/Gilroy-Semibold.woff2") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}

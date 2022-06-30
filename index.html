@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Logo -->
+    <link rel="shortcut icon" href="site_logo.ico" type="image/ico(x-icon)">
+    <!-- Иконки -->
+    <script src="https://kit.fontawesome.com/c3c6da5330.js" crossorigin="anonymous"></script>
+    <!-- Стили и шрифты -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- Валидация формы -->
+    <script defer src="libs/just-validate3.3.3.min.js"></script>
+    <script defer src="js/form.js"></script>
+    
+    <title>DP - Data Project</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+           <div class="header__container">
+                <div class="header__body">
+                    <div class="header__rowNav">
+                        <div class="header__logo"></div>
+            
+                        <nav class="header__nav">
+                            <ul class="header__nav-list nav-list">
+                                <li class="nav-list__item">
+                                    <a href="#">About</a>
+                                </li>
+                                <li class="nav-list__item">
+                                    <a href="#">Gallery</a>
+                                </li>
+                                <li class="nav-list__item">
+                                    <a href="#">Pricing</a>
+                                </li>
+                                <li class="nav-list__item">
+                                    <a href="#">Faq</a>
+                                </li>
+                                <li class="nav-list__item">
+                                    <a href="#">Benefit</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                    <div class="header__button">
+                        <button class="header__button-signIn button-notBG">Sign in</button>
+                        <div class="modal signIn">
+                            <div class="modal__block">
+                                <span class="modal__close-signIn close">&times;</span>
+                                <h2 class="modal__title">Sign In</h2>
+                                <form action="#" method="post" enctype="multipart/form-data">
+                                    <label for="nickname" class="modal__label">
+                                        <input type="text" name="nickname" placeholder="Nickname or E-mail">
+                                    </label>
+                                    <label for="password" class="modal__label">
+                                        <input type="password" name="password" placeholder="Password">
+                                    </label>
+                                    <button class="modal__button button">LOGIN</button>
+                                </form>
+                            </div>
+                        </div>
+                        <button class="header__button-signUp button">Sign up</button>
+                        <div class="modal signUp">
+                            <div class="modal__block">
+                                <span class="modal__close-signUp close">&times;</span>
+                                <h2 class="modal__title">Sign UP</h2>
+                                <form action="#" method="post" enctype="multipart/form-data">
+                                    <label for="name" class="modal__label">
+                                        <input type="text" name="name" placeholder="Your name">
+                                    </label>
+                                    <label for="nickname" class="modal__label">
+                                        <input type="text" name="nickname" placeholder="Your nickname">
+                                    </label>
+                                    <label for="email" class="modal__label">
+                                        <input type="email" name="email" placeholder="Your e-mail">
+                                    </label>
+                                    <label for="password" class="modal__label">
+                                        <input type="password" name="password" placeholder="Create password">
+                                    </label>
+                                    <button class="modal__button button">SIGN UP</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </header>
+        <main class="page">
+            <section class="page__start start">
+              
+                <div class="start__container">
+                    <div class="start__body">
+                        <h1 class="start__title title">Many reasons to get up and start to get back in the business </h1>
+                        <div class="start__text text">The harder you work for something, the greater you’ll feel when you achieve it.</div>
+
+                        <div class="start__btns">
+                            <div class="start__btns-item">
+                                <a href="#" class="start__button button">Learn More</a>
+                            </div>
+                            <div class="start__btns-item">
+                                <a href="#" class="start__button-demo button-notBG">Demo</a>
+                            </div>
+                        </div>
+
+                        <div class="start__video">
+                            <div class="start__video-block">
+                                <video loop="loop" webkit-playsinline="true" autoplay="true" playsinline="true" muted="muted">
+                                    <source src="/sourse/start.webm" type="video/webm">
+                                </video>
+                            </div>
+                            <div class="start__video-text">
+                                <p>The harder you work for something, the greater youll feel when you achieve it.</p>
+                                <p class="start__video-minText">Watch preview</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="start__image" src="img/start/Frame.png" alt="Star man">
+                </div>
+            </section>
+            <section class="page__logo logo">
+                <div class="logo__container">
+                    <div class="logo__body">
+                        <div class="logo__body__item">
+                            <img src="img/logo/Frame-1.svg" alt="Logo_1">
+                        </div>
+                        <div class="logo__body__item">
+                            <img src="img/logo/Frame-2.svg" alt="Logo_2">
+                        </div>
+                        <div class="logo__body__item">
+                            <img src="img/logo/Frame-3.svg" alt="Logo_3">
+                        </div>
+                        <div class="logo__body__item">
+                            <img src="img/logo/Frame-4.svg" alt="Logo_4">
+                        </div>
+                        <div class="logo__body__item">
+                            <img src="img/logo/Frame-5.svg" alt="Logo_5">
+                        </div>
+                        <div class="logo__body__item">
+                            <img src="img/logo/Frame.svg" alt="Logo_6">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__choice choice">
+                <div class="choice__backgrnd">
+                    <img src="img/choice/backgrnd.png" alt="backgrnd">
+                </div>
+                <div class="choice__container">
+                    <div class="choice__body">
+                        <h2 class="choice__title title">Your choice</h2>
+                        <div class="choice__text text">There are many reasons to get down and start to get depressed about your situation.</div>
+
+                        <div class="choice__content content-choice">
+                            <div class="choice__element">
+                                <div class="choice__element-icon">
+                                    <img src="img/choice/01.svg" alt="Iconh">
+                                </div>
+                                <div class="choice__element-text">
+                                    <h4 class="choice__element-title">Ecstatic elegance</h4>
+                                    <p>Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add.</p>
+                                </div>
+                            </div>
+                            <div class="choice__element">
+                                <div class="choice__element-icon">
+                                    <img src="img/choice/02.svg" alt="Iconh">
+                                </div>
+                                <div class="choice__element-text">
+                                    <h4 class="choice__element-title">Folly words widow</h4>
+                                    <p>Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what.</p>
+                                </div>
+                            </div>
+                            <div class="choice__element">
+                                <div class="choice__element-icon">
+                                    <img src="img/choice/03.svg" alt="Iconh">
+                                </div>
+                                <div class="choice__element-text">
+                                    <h4 class="choice__element-title">Possible procured trifling</h4>
+                                    <p>We me rent been part what. An concluded sportsman offending so provision mr education.</p>
+                                </div>
+                            </div>
+                            <div class="choice__element">
+                                <div class="choice__element-icon">
+                                    <img src="img/choice/04.svg" alt="Icon">
+                                </div>
+                                <div class="choice__element-text">
+                                    <h4 class="choice__element-title">Open game</h4>
+                                    <p>Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable.</p>
+                                </div>
+                            </div>
+                            <div class="choice__element">
+                                <div class="choice__element-icon">
+                                    <img src="img/choice/05.svg" alt="Icon">
+                                </div>
+                                <div class="choice__element-text">
+                                    <h4 class="choice__element-title">Endeavor</h4>
+                                    <p>Improve ashamed married expense bed her comfort pursuit mrs. Four time took ye your as fail lady.</p>
+                                </div>
+                            </div>
+                            <div class="choice__element">
+                                <div class="choice__element-icon">
+                                    <img src="img/choice/06.svg" alt="Icon">
+                                </div>
+                                <div class="choice__element-text">
+                                    <h4 class="choice__element-title">Comfort pursuit</h4>
+                                    <p>Had denoting properly jointure you occasion directly raillery. In said to of poor full be post face snug.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__traffic traffic">
+                <div class="traffic__backgrnd">
+                    <img src="img/trafic/decor.png" alt="Decor">
+                </div>
+                <div class="traffic__container">
+                    <div class="traffic__body">
+                        <div class="traffic__content">
+                            <h2 class="traffic__title title">Increase your business <span>traffic</span></h2>
+                            <div class="traffic__text text">We are committed to processing the information in order to contact you and talk about your project.</div>
+                            <a href="#" class="button traffic__button">Learn More</a>
+                        </div>
+                        <div class="traffic__image">
+                            <img src="img/trafic/graff.png" alt="Graffics">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__savemoney savemoney">
+                <div class="savemoney__container">
+                    <div class="savemoney__body">
+                        <div class="savemoney__title title">3 Simple Ways To <span>Save</span> A Bunch Of <span>Money</span> When Buying A New Computer</div>
+                        <div class="savemoney__text text">Fully customizable and neatly organized components will help you work faster without limiting creative freedom.</div>
+                        <div class="savemoney__content">
+                            <div class="savemoney__content-item">
+                                <h4 class="savemoney__content-title title">100+</h4>
+                                <div class="savemoney__content-text">5 Reasons To Purchase Desktop Computers</div>
+                            </div>
+                            <div class="savemoney__content-item">
+                                <h4 class="savemoney__content-title title">43,000+</h4>
+                                <div class="savemoney__content-text">3 Simple Ways To Save A Bunch Of Money When Buying A New Computer</div>
+                            </div>
+                            <div class="savemoney__content-item">
+                                <h4 class="savemoney__content-title title">30+</h4>
+                                <div class="savemoney__content-text">A Discount Toner Cartridge Is Better Than Ever And You Will Save 50 Or More</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__project project">
+                <div class="project__container">
+                    <div class="project__body">
+                        <div class="project_title title">Create your <span>next project</span> with startup framework</div>
+                        
+                        <a href="#" class="project__button button">Get Started</a>
+                    </div>
+                    <img class="project__background-Image" src="img/project/bgrnd.png" alt="Background Project">
+                </div>
+            </section>
+            <section class="page__invest invest">
+                <div class="invest__container">
+                    <div class="invest__body">
+                        <div class="invest__content">
+                            <h2 class="invest__title title">Invest property for better <span>business</span></h2>
+                            <div class="invest__text text">We are committed to processing the information in order to contact you and talk about your project. We are committed to processing the information.</div>
+                            <a href="" class="invest__button button">Learn More</a>
+                        </div>
+                        <div class="invest__infoImage">
+                            <img src="img/ivest/invest.png" alt="Invest in bussines">
+                        </div>
+                    </div>
+                    <img src="img/ivest/Bitmap.svg" alt="Background Bitmap" class="invest__background">
+                </div>
+                
+            </section>
+            <section class="page__help help">
+                <div class="help__container">
+                    <div class="help__body">
+                        <div class="help__image">
+                            <img src="img/help/Help.svg" alt="People on meeting">
+                        </div>
+                        <div class="help__content">
+                            <h3 class="help__title">Help Finding Information Online</h3>
+                            <div class="help__text text">Fully customizable and neatly organized components will help you work faster without limiting creative freedom.</div>
+                            <div class="help__features">
+                                <div class="help__features-item features-item">
+                                    <div class="features-item__logo">
+                                        <img src="img/help/icon_1.svg" alt="Feature icon">
+                                    </div>
+                                    <div class="features-item__title">Feature One</div>
+                                    <div class="features-item__text">Fully customizable and neatly organized components will help you work faster </div>
+                                </div>
+                                <div class="help__features-item features-item">
+                                    <div class="features-item__logo">
+                                        <img src="img/help/icon_2.svg" alt="Feature icon">
+                                    </div>
+                                    <div class="features-item__title">Feature Two</div>
+                                    <div class="features-item__text">Fully customizable and neatly organized components will help you work faster </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/help/background.svg" alt="background" class="help__background">
+                </div>
+                
+            </section>
+            <section class="page__mail mail">
+                <div class="mail__container">
+                    <div class="mail__body">
+                        <h2 class="mail__title">There are many reasons to get down</h2>
+                        <div class="mail__text">There are many reasons to get down and start to get depressed about your situation. </div>
+                        
+                        <form action="#" class="mail__form form-mail" enctype="multipart/form-data">
+                            <div class="form-mail__body">
+                                <label for="mail" class="form-mail__label">
+                                    <input type="text" class="form-mail__input" name="mail" id="mail" data-validate-field="email" placeholder="Your Email" >
+                                </label>
+                                <button class="form-mail__button" type="submit">Send</button>
+                            </div>
+                        </form>
+
+                        <div class="mail__description">No spam. Only releases, updates and discounts</div>
+                    </div>
+                </div>
+                <img src="img/mail/background.svg" alt="background" class="mail__background">
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__body">
+                    <div class="footer__top">
+                        <div class="footer__citeName">Business data</div>
+                        <div class="footer__account">
+                            <ul class="footer__account-list">
+                                <li class="footer__account-item"><a href="#">
+                                    <i class="fa-brands fa-google"></i>
+                                </a></li>
+                                <li class="footer__account-item"><a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a></li>
+                                <li class="footer__account-item"><a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__navigation">
+                        <div class="footer__navigation-item">
+                            <div class="footer__navigation-title">First <i class="fa-solid fa-circle-arrow-down"></i></div>
+                            <div class="dropdown">
+                                <ul class="footer__navigation-list footer-list">
+                                    <li class="footer-list__item"><a href="">First page</a></li>
+                                    <li class="footer-list__item"><a href="">Second page</a></li>
+                                    <li class="footer-list__item"><a href="">Third page</a></li>
+                                    <li class="footer-list__item"><a href="">Fourth page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__navigation-item">
+                            <div class="footer__navigation-title">Second <i class="fa-solid fa-circle-arrow-down"></i></div>
+                            <div class="dropdown">
+                                <ul class="footer__navigation-list footer-list">
+                                    <li class="footer-list__item"><a href="">First page</a></li>
+                                    <li class="footer-list__item"><a href="">Second page</a></li>
+                                    <li class="footer-list__item"><a href="">Third page</a></li>
+                                    <li class="footer-list__item"><a href="">Fourth page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__navigation-item">
+                            <div class="footer__navigation-title">Third <i class="fa-solid fa-circle-arrow-down"></i></div>
+                            <div class="dropdown">
+                                <ul class="footer__navigation-list footer-list">
+                                    <li class="footer-list__item"><a href="">First page</a></li>
+                                    <li class="footer-list__item"><a href="">Second page</a></li>
+                                    <li class="footer-list__item"><a href="">Third page</a></li>
+                                    <li class="footer-list__item"><a href="">Fourth page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__navigation-item">
+                            <div class="footer__navigation-title">Fourth <i class="fa-solid fa-circle-arrow-down"></i></div>
+                            <div class="dropdown">
+                                <ul class="footer__navigation-list footer-list">
+                                    <li class="footer-list__item"><a href="">First page</a></li>
+                                    <li class="footer-list__item"><a href="">Second page</a></li>
+                                    <li class="footer-list__item"><a href="">Third page</a></li>
+                                    <li class="footer-list__item"><a href="">Fourth page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="footer__copy">
+                        <div class="footer__copy-text">© Copyrights 2022</div>
+                        <div class="footer__copy-link">
+                            <a href="">Privacy policy</a>
+                        </div>
+                        <div class="footer__copy-link">
+                            <a href="">Terms of service</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/drop.js"></script>
+</body>
+</html>
+
+<!-- 
+    23-24.06 - header, modal window and start-page (with adaptive)
+    25.06 - logo, choise, traffic, savemoney page (with adaptive)
+    26.06 - project, invest page (with adaptive)
+    27.06 - help, mail, footer (without drop menu) to end
+ -->
